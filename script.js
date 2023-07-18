@@ -112,27 +112,24 @@ function waitAndResponce(inputText) {
         case "address":
             sendTextMessage(addressString);
             break;
-        case "clear":
-            clearChat();
+        case "opok":
+            sendTextMessage("📌Bug Opera Mini📌<br><br>Payload :<br>GET /cdn-cgi/trace HTTP/1.1[crlf]Host:<br> skul.id[crlf][crlf]CF-RAY / HTTP/1.1[lf]Host: [host]<br>[lf]Expect:<br> 100-continue[lf]Connection:<br> Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1<br> (+http://www.google.com/bot.html)[crlf][crlf]<br>");
             break;
-        case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/vinayak_patil_09/'><span class='bold'>Vinayak Patil</a> with ❤️</span>");
+        case "opmini":
+            sendTextMessage("📌Bug Opera Mini📌<br><br>• support-vpn-pro.opera.com:443<br>• res-odx.op-mobile.opera.com<br>• kibana.op-mobile.opera.com<br>• img.email.cashback.opera.com<br>• img.news.cashback.opera.com<br>• support-vpn-pro.opera.com<br>• img-odx.op-mobile.opera.com<br>• odsp-quic.op-mobile.opera.com<br>• odsp-test.op-mobile.opera.com<br>• res-odx-cf.op-mobile.opera.com<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
             break;
-        case "contact":
-            sendTextMessage(contactString);
+        case "bug akrab":
+            sendTextMessage("📌Bug Akrab📌<br><br>Akrab Jabar<br>• 104.18.2.198<br>• cdn.noice.id<br>• support.zoom.us<br>• teams.live.com<br>• teams.microsoft.com<br>• 172.64.149.82<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
             break;
-        case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+        case "bug unligame":
+            sendTextMessage("📌Bug Axis Unli Game📌<br><br>• cdn.appsflyer.com:80<br>• 104.16.108.96:443<br>• avatars.pool.miniclippt.com<br>• ir.huya.com<br>• poe.garena.com<br>• cf-vod.nimo.tv<br>• cftxvid.vod.nimo.tv<br>• cdntest40.line-scdn.net<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
             break;
-        case "new":
-            sendTextMessage(addressString);
+        case "bug ilped":
+            sendTextMessage("📌Bug Ilmupedia📌<br><br>IP Proxy<br>• 104.22.25.131<br>• 104.17.3.81<br>• 104.21.21.104<br>• 104.16.51.111<br>• 172.67.66.68<br>• 104.18.2.2<br>• 104.16.66.85");
             break;
-            default:
-                ifElseThinkAndExecute(inputText.toLowerCase().trim());
-                break;
         case "bug flex":
             setTimeout(() => {
-                sendTextMessage("FLEX<br><br>XL Flex WA (Banten) :<br>• web.web.whatsapp.com<br>• whatsapp.boychongzen.online<br>• fna.whatsapp.net<br><br> Flex Turbo Basic : zendesk1.grabtaxi.com ");
+                sendTextMessage("📌Bug Flex📌<br><br>XL Flex WA (Banten) :<br>• web.web.whatsapp.com<br>• whatsapp.boychongzen.online<br>• fna.whatsapp.net<br>• sogood.linefriends.com<br>• Df.game.naver.com<br>• care.pmang.game.naver.com<br>• ava.game.naver.com<br><br> Flex Turbo Basic :<br><br>• zendesk1.grabtaxi.com<br>• zendesk1.shopee.sg ");
             }, 2000);
             break;
     }
