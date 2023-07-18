@@ -92,14 +92,11 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Selamat Datang :) <br><br>Ketik<span class='bold'>'help'</span>Jika kamu Bingung ♥️");
+                sendTextMessage("Selamat Datang :) <br><br>Ketik<span class='bold'>'help'</span>Jika kamu Bingung️");
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know...<br>e.g<br><span class='bold'>'bug flex'</span> - Kumpulan Bug Flex<br><span class='bold'>'bug akrab'</span> - Kumpulan Bug Akrab<br><span class='bold'>'bug unligame'</span> - Kumpulan Bug Axis Unligame<br><span class='bold'>'opmini'</span> - Kumpulan Bug Opera Mini<br><span class='bold'>'opok tsell'</span> - Kumpulan Bug Opok Tsell<br><span class='bold'>'clear'</span> - Untuk Membersihkan Chat.</span>");
-            break;
-        case "clear":
-            clearChat();
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know...<br>e.g<br><span class='bold'>'bug flex'</span> - Kumpulan Bug Flex<br><span class='bold'>'bug akrab'</span> - Kumpulan Bug Akrab<br><span class='bold'>'bug unligame'</span> - Kumpulan Bug Axis Unligame<br><span class='bold'>'opmini'</span> - Kumpulan Bug Opera Mini<br><span class='bold'>'opok tsell'</span> - Kumpulan Bug Opok Tsell<br><span class='bold'>'clear'</span> - Untuk Membersihkan Chat");
             break;
         case "opok tsell":
             setTimeout(() => {
