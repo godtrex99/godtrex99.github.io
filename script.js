@@ -112,17 +112,30 @@ function waitAndResponce(inputText) {
         case "address":
             sendTextMessage(addressString);
             break;
+        case "opok":
+            setTimeout(() => {
+                sendTextMessage("📌Bug Opera Mini📌<br><br>Payload :<br>GET /cdn-cgi/trace HTTP/1.1[crlf]Host:<br> skul.id[crlf][crlf]CF-RAY / HTTP/1.1[lf]Host: [host]<br>[lf]Expect:<br> 100-continue[lf]Connection:<br> Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1<br> (+http://www.google.com/bot.html)[crlf][crlf]<br>");
+            }, 2000);
+            break;
         case "opmini":
+            setTimeout(() => {
             sendTextMessage("📌Bug Opera Mini📌<br><br>• support-vpn-pro.opera.com:443<br>• res-odx.op-mobile.opera.com<br>• kibana.op-mobile.opera.com<br>• img.email.cashback.opera.com<br>• img.news.cashback.opera.com<br>• support-vpn-pro.opera.com<br>• img-odx.op-mobile.opera.com<br>• odsp-quic.op-mobile.opera.com<br>• odsp-test.op-mobile.opera.com<br>• res-odx-cf.op-mobile.opera.com<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
+            }, 2000);
             break;
         case "bug akrab":
-            sendTextMessage("📌Bug Akrab📌<br><br>Akrab Jabar<br>• 104.18.2.198<br>• cdn.noice.id<br>• support.zoom.us<br>• teams.live.com<br>• teams.microsoft.com<br>• 172.64.149.82<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
-            break;
+            setTimeout(() => {
+                sendTextMessage("📌Bug Akrab📌<br><br>Akrab Jabar<br>• 104.18.2.198<br>• cdn.noice.id<br>• support.zoom.us<br>• teams.live.com<br>• teams.microsoft.com<br>• 172.64.149.82<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
+            }, 2000);
+            break;;
         case "bug unligame":
-            sendTextMessage("📌Bug Axis Unli Game📌<br><br>• cdn.appsflyer.com:80<br>• 104.16.108.96:443<br>• avatars.pool.miniclippt.com<br>• ir.huya.com<br>• poe.garena.com<br>• cf-vod.nimo.tv<br>• cftxvid.vod.nimo.tv<br>• cdntest40.line-scdn.net<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
+            setTimeout(() => {
+                sendTextMessage("📌Bug Axis Unli Game📌<br><br>• cdn.appsflyer.com:80<br>• 104.16.108.96:443<br>• avatars.pool.miniclippt.com<br>• ir.huya.com<br>• poe.garena.com<br>• cf-vod.nimo.tv<br>• cftxvid.vod.nimo.tv<br>• cdntest40.line-scdn.net<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
+            }, 2000);
             break;
         case "bug ilped":
-            sendTextMessage("📌Bug Ilmupedia📌<br><br>IP Proxy<br>• 104.22.25.131<br>• 104.17.3.81<br>• 104.21.21.104<br>• 104.16.51.111<br>• 172.67.66.68<br>• 104.18.2.2<br>• 104.16.66.85");
+            setTimeout(() => {
+                sendTextMessage("📌Bug Ilmupedia📌<br><br>IP Proxy<br>• 104.22.25.131<br>• 104.17.3.81<br>• 104.21.21.104<br>• 104.16.51.111<br>• 172.67.66.68<br>• 104.18.2.2<br>• 104.16.66.85");
+            }, 2000);
             break;
         case "bug flex":
             setTimeout(() => {
