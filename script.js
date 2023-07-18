@@ -112,9 +112,6 @@ function waitAndResponce(inputText) {
         case "address":
             sendTextMessage(addressString);
             break;
-        case "opok":
-            sendTextMessage("📌Bug Opera Mini📌<br><br>Payload :<br>GET /cdn-cgi/trace HTTP/1.1[crlf]Host:<br> skul.id[crlf][crlf]CF-RAY / HTTP/1.1[lf]Host: [host]<br>[lf]Expect:<br> 100-continue[lf]Connection:<br> Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1<br> (+http://www.google.com/bot.html)[crlf][crlf]<br>");
-            break;
         case "opmini":
             sendTextMessage("📌Bug Opera Mini📌<br><br>• support-vpn-pro.opera.com:443<br>• res-odx.op-mobile.opera.com<br>• kibana.op-mobile.opera.com<br>• img.email.cashback.opera.com<br>• img.news.cashback.opera.com<br>• support-vpn-pro.opera.com<br>• img-odx.op-mobile.opera.com<br>• odsp-quic.op-mobile.opera.com<br>• odsp-test.op-mobile.opera.com<br>• res-odx-cf.op-mobile.opera.com<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
             break;
