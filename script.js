@@ -130,9 +130,9 @@ function waitAndResponce(inputText) {
             default:
                 ifElseThinkAndExecute(inputText.toLowerCase().trim());
                 break;
-        case "bug":
+        case "bug flex":
             setTimeout(() => {
-                sendTextMessage("KUMPULAN BUG<br><br>XL Flex WA (Banten) : web.web.whatsapp.com<br>XL Flex Turbo Basic : zendesk1.grabtaxi.com <br><br>Axis UnliGame : graph.facebook.com");
+                sendTextMessage("FLEX<br><br>XL Flex WA (Banten) :<br>• web.web.whatsapp.com<br>• whatsapp.boychongzen.online<br>• fna.whatsapp.net<br><br> Flex Turbo Basic : zendesk1.grabtaxi.com ");
             }, 2000);
             break;
     }
