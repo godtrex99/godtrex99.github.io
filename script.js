@@ -92,27 +92,19 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Selamat Datang :) <br><br>Ketik<span class='bold'>'bug'</span>Untuk melihat bug yang aktif");
+                sendTextMessage("Selamat Datang :) <br><br>Ketik<span class='bold'>'help'</span>Jika kamu Bingung ♥️");
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know...<br>e.g<br><span class='bold'>'bug flex'</span> - Kumpulan Bug Flex<br><span class='bold'>'bug akrab'</span> - Kumpulan Bug Akrab<br><span class='bold'>'bug unligame'</span> - Kumpulan Bug Axis Unligame<br><span class='bold'>'opmini'</span> - Kumpulan Bug Opera Mini<br><span class='bold'>'opok tsell'</span> - Kumpulan Bug Opok Tsell</span>");
             break;
-        case "resume":
-            sendTextMessage(resumeString);
+        case "clear":
+            clearChat();
+                sendTextMessage("Berhasil Menghapus Pesan");
+            }, 2000);
+            clearChat();
             break;
-        case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
-            break;
-
-        case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from TKIET Kolhapur<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
-            break;
-
-        case "address":
-            sendTextMessage(addressString);
-            break;
-        case "opok":
+        case "opok tsell":
             setTimeout(() => {
                 sendTextMessage("📌Bug Opera Mini📌<br><br>Payload :<br>GET /cdn-cgi/trace HTTP/1.1[crlf]Host:<br> skul.id[crlf][crlf]CF-RAY / HTTP/1.1[lf]Host: [host]<br>[lf]Expect:<br> 100-continue[lf]Connection:<br> Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1<br> (+http://www.google.com/bot.html)[crlf][crlf]<br>");
             }, 2000);
