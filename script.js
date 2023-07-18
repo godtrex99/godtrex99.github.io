@@ -92,7 +92,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vinayak Ramchandra Patil</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>Ch. Shivaji University 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Selamat Datang :) <br><br>Ketik<span class='bold'>'bug'</span>Untuk melihat bug yang aktif");
             }, 2000);
             break;
         case "help":
@@ -132,7 +132,7 @@ function waitAndResponce(inputText) {
                 break;
         case "bug":
             setTimeout(() => {
-                sendTextMessage("KUMPULAN BUG 👋🏻,<br><br>XL Flex WA (Banten) : web.web.whatsapp.com<br>XL Flex Turbo Basic : zendesk1.grabtaxi.com");
+                sendTextMessage("KUMPULAN BUG<br><br>XL Flex WA (Banten) : web.web.whatsapp.com<br>XL Flex Turbo Basic : zendesk1.grabtaxi.com <br><br>Axis UnliGame : graph.facebook.com");
             }, 2000);
             break;
     }
