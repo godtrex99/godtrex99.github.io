@@ -104,7 +104,7 @@ function waitAndResponce(inputText) {
             break;
         case "opmini":
             setTimeout(() => {
-            sendTextMessage("📌Bug Opera Mini📌<br><br>• support-vpn-pro.opera.com:443<br>• res-odx.op-mobile.opera.com<br>• kibana.op-mobile.opera.com<br>• img.email.cashback.opera.com<br>• img.news.cashback.opera.com<br>• support-vpn-pro.opera.com<br>• img-odx.op-mobile.opera.com<br>• odsp-quic.op-mobile.opera.com<br>• odsp-test.op-mobile.opera.com<br>• res-odx-cf.op-mobile.opera.com<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
+            sendTextMessage("📌Bug Opera Mini📌<br><br>* Dial Opera Mini :<br><span class='bold'>'*808*363#'</span><br><br>• support-vpn-pro.opera.com:443<br>• res-odx.op-mobile.opera.com<br>• kibana.op-mobile.opera.com<br>• img.email.cashback.opera.com<br>• img.news.cashback.opera.com<br>• support-vpn-pro.opera.com<br>• img-odx.op-mobile.opera.com<br>• odsp-quic.op-mobile.opera.com<br>• odsp-test.op-mobile.opera.com<br>• res-odx-cf.op-mobile.opera.com<br><br>Silahkan coba satu-satu bug di atas,jika tidak konek sabar aja 🗿");
             }, 2000);
             break;
         case "bug akrab":
