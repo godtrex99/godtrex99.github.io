@@ -96,7 +96,7 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know...<br>e.g<br><span class='bold'>'bug flex'</span> - Kumpulan Bug Flex<br><span class='bold'>'bug akrab'</span> - Kumpulan Bug Akrab<br><span class='bold'>'bug unligame'</span> - Kumpulan Bug Axis Unligame<br><span class='bold'>'opmini'</span> - Kumpulan Bug Opera Mini<br><span class='bold'>'opok tsell'</span> - Kumpulan Bug Opok Tsell</span>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know...<br>e.g<br><span class='bold'>'bug flex'</span> - Kumpulan Bug Flex<br><span class='bold'>'bug akrab'</span> - Kumpulan Bug Akrab<br><span class='bold'>'bug unligame'</span> - Kumpulan Bug Axis Unligame<br><span class='bold'>'opmini'</span> - Kumpulan Bug Opera Mini<br><span class='bold'>'opok tsell'</span> - Kumpulan Bug Opok Tsell<br><span class='bold'>'clear'</span> - Untuk Membersihkan Chat.</span>");
             break;
         case "clear":
             clearChat();
