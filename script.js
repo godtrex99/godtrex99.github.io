@@ -100,9 +100,6 @@ function waitAndResponce(inputText) {
             break;
         case "clear":
             clearChat();
-                sendTextMessage("Berhasil Menghapus Pesan");
-            }, 2000);
-            clearChat();
             break;
         case "opok tsell":
             setTimeout(() => {
